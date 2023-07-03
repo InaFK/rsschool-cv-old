@@ -1,8 +1,9 @@
 # rsschool-cv
 
-**Ina FK**
+## Ina FK
 
 *email: inajob@tut.by*
+
 *discord: @inafk*
 
 *Basic knowledge:  HTML / CSS / JS*
