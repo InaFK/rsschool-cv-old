@@ -2,14 +2,14 @@
 
 **Ina FK**
 
-```
-* email: inajob@tut.by
-* discord: @inafk
+*email: inajob@tut.by*
+*discord: @inafk*
 
-* Basic knowledge:  HTML / CSS / JS 
+*Basic knowledge:  HTML / CSS / JS*
+
+
+**Codewars task (javascript):**
 ```
-```
-Codewars task (javascript):
     function count(array){
         var unique = array.reduce((count, value) => {
         count[value] = count[value] === undefined ? 1 : count[value] += 1;
