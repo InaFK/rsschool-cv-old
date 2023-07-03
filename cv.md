@@ -4,7 +4,7 @@
 
 ```
 * email: inajob@tut.by
-* telegram: @inafk
+* discord: @inafk
 
 * Basic knowledge:  HTML / CSS / JS 
 ```
