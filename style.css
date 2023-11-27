@@ -9,6 +9,9 @@ body {
   ul {
     padding-left: 20px;
   }
+  sup {
+    font-size: 0.7rem;
+  }
   .wrapper {
     max-width:  1024px;
   }
@@ -36,8 +39,9 @@ body {
     padding: 25px 15px 15px 25px;
     border-radius: 50%;
   }
+  header,
   .grid-area {
-    padding: 1em 1em 1em 1em;
+    padding: 1rem;
   }
   .name {
     grid-area: name;
@@ -70,7 +74,6 @@ body {
   .skills {
     grid-area: skills;
   }
-  
   .footer {
     display: flex;
     grid-area: footer;
@@ -104,4 +107,3 @@ body {
         "footer footer";
     }
   }
-  
