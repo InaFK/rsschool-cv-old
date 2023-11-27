@@ -1,0 +1,124 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+    display: flex;
+    font-family: "Space Mono", Helvetica, sans-serif;
+    justify-content: center;
+  }
+  h2 {
+    margin: 5px 0;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  sup {
+    font-size: 0.7rem;
+  }
+  nav > ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  nav > ul > li {
+    padding-right: 15px;
+  }
+  .wrapper {
+    max-width:  1024px;
+  }
+  .resume {
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
+    grid-gap: 5px;
+    grid-template-areas:
+      "photo"
+      "name"
+      "contacts"
+      "about"
+      "code"
+      "work"
+      "education"
+      "skills"
+      "footer";
+  }
+  .circle {
+    border: 1px solid black;
+    height: 115px;
+    width: 115px;
+    margin: 0 auto;
+    padding: 25px 15px 15px 25px;
+    border-radius: 50%;
+  }
+  header,
+  .grid-area {
+    padding: 1rem;
+  }
+  .name {
+    grid-area: name;
+  }
+  
+  .photo {
+    grid-area: photo;
+  }
+  .contacts {
+    grid-area: contacts;
+  }
+  .about {
+    grid-area: about;
+  }
+  .code {
+    grid-area: code;
+  }
+  .work {
+    grid-area: work;
+  }
+  .education {
+    grid-area: education;
+  }
+  .code-example {
+    background-color: lightgrey;
+    font-size: 0.5rem;
+    margin: 0;
+    padding: 20px 0 10px;
+  }
+  .skills {
+    grid-area: skills;
+  }
+  .footer {
+    align-items: center;
+    display: flex;
+    font-size: 0.8rem;
+    grid-area: footer;
+    justify-content: space-between;
+    padding-top: 2rem;
+  }
+  
+  @media (min-width: 767px) {
+    .resume {
+      grid-template-columns: 2fr 1fr;
+      grid-template-areas:
+        "name photo"
+        "work contacts"
+        "about about"
+        "code code"
+        "skills skills"
+        "projects education"
+        "footer footer";
+    }
+    .code-example {
+      font-size: 1.0rem;
+    }
+  }
+  @media (min-width: 1023px) {
+    .resume {
+      grid-template-areas:
+        "name photo"
+        "contacts photo"
+        "work education"
+        "about about"
+        "code code"
+        "skills projects"
+        "footer footer";
+    }
+  }
