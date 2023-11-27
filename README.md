@@ -1,3 +1,3 @@
-# Ina - CV#2. HTML, CSS & Git Basics
+# Ina - CV. HTML, CSS & Git Basics
 
-This task is located [here](https://InaFK.github.io/rsschool-cv/).
+[My CV created with HTML and CSS](https://InaFK.github.io/rsschool-cv/).
